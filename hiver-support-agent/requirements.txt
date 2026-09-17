@@ -1,0 +1,12 @@
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.2
+joblib>=1.2
+pytest>=7.0
+
+# Optional (only needed if you switch Retriever backend to "sentence-transformer"
+# in run_all.py, for stronger semantic historical retrieval):
+# sentence-transformers>=2.2
+
+# Optional (only needed for evaluation/evaluate_replies.py's LLM-judge path):
+# anthropic>=0.30
